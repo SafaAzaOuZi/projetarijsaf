@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <h1> Nos Produitd Hygienes</h1> 
+  <div class="wrap">
+      <div class="search">
+         <input type="text" [(ngModel)]="val" class="searchTerm" placeholder="Rechercher">
+         <button type="submit" class="searchButton">
+           <i class="fa fa-search"></i>
+        </button>
+        <br><br>
+      </div>
+  </div>
+  <img src="assets/aaw.jpg" height="600px" width="1450px"  border-radius:40px/>
+  <br>
+  <br>
+<div class="container" width="600">
+<div class="card" width="1000">
+<div class="card-body" width="7000">
+<ul class="container-fluid d-inline-flex ">
+  <div class=" w-100 bg-light text-black border border-dark" *ngFor="let a of lesprodh | filter:val">
+       <img [src]="a.photo" width="150px"><br>
+       <strong>{{a.nom}}</strong><br> 
+       {{a.prix}}Dt <br>
+       <input type="checkbox" [checked]="a.nouveau" >nouveau <br>
+       <br>
+       <button class="btn btn-default"><a [routerLink]="['/detailproduitshygienes',a.id]">Details</a></button>
+       <br><br><button class="btn btn-primary"><a (click)="onSupprimer(a.id)">Supprimer</a></button>
+       <br><br><button class="btn btn-default"><a [routerLink]="['/modifierproduithygiene',a.id]">Modifier</a></button>
+  </div>
+</ul>
+  </div>
+  </div>
+</div>
+<button class="btn btn-primary"[routerLink]="['/ajouterproduitshygienes']">Ajouter un nouveau produit hygiene</button>
+</body>
+</html>

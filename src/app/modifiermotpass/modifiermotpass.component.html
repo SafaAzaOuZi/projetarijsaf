@@ -1,0 +1,12 @@
+<form [formGroup]="seconnecterForm">
+    <strong> Username : </strong> 
+    <input type="text" name="username" [placeholder]="admin[0].nom" formControlName="nom" />
+    <!-- <div *ngIf="password.errors?.['required'] && password.touched" class="alert alert-danger">Le mot de passe est obligatoire.</div>
+    <div *ngIf="password.errors?.['minLength'] && password.dirty"class="alert alert-danger">Le mot de passe doit contenir au moins 6 caractères</div> -->
+    <br>
+    <br>  
+<strong> Password:</strong> 
+<input type="text" formControlName="password" [placeholder]="admin[0].password" name="confirmerpassword" placeholder="Changer mot de passe"/>
+    <!-- <div *ngIf="password.errors?.['minLength'] && password.dirty"class="alert alert-danger">Le mot de passe doit etre similaire à celui entré</div>    -->
+    <button type="button" (click)="onModifier(admin[0].id)" class="btn btn-warning">Enregistrer</button>
+</form>

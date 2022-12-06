@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <h1> Nos Maquillages</h1> 
+<div class="wrap">
+    <div class="search">
+       <input type="text" [(ngModel)]="val" class="searchTerm" placeholder="Rechercher">
+       <button type="submit" class="searchButton" height="20" width="20">
+         <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <br>
+</div>
+<img src="assets/gg.jpg" height="600px" width="1500px"  border-radius:40px/>
+<br><br>
+<div class="container" width="600">
+  <div class="card" width="1000">
+  <div class="card-body" width="7000">
+<ul class="container-fluid d-inline-flex ">
+   <div class=" w-100 bg-light text-black border border-dark" *ngFor="let m of lesMaq |filter:val" >
+        <img [src]="m.photo" width="150px"><br><br>
+       <strong>{{m.nom}}</strong><br> 
+        {{m.prix}}Dt<br>
+        <input type="checkbox" [checked]="m.nouveau" >nouveau <br>
+        <br>
+        <button class="btn btn-default"><a [routerLink]="['/detailsmaquillages', m.id]">Details</a></button><br><br>
+        <button type="button" class="btn btn-primary"(click)="onSupprimer(m.id)">Supprimer</button><br><br>
+        <button class="btn btn-default"><a [routerLink]="['/modifiermaquillage',m.id]">Modifier</a></button>
+    </div>
+</ul>
+</div>
+</div>
+</div>
+<button class="btn btn-primary"[routerLink]="['/ajoutermaquillage']">Ajouter un nouveau maquillage</button>
+</body>
+</html>

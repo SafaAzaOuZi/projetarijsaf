@@ -1,0 +1,36 @@
+<form [formGroup]="parfumForm">
+    <div class="form-group">
+<input type="text" formControlName="photo" >
+</div>
+<br>
+<div class="form-group">
+<input type="text" formControlName="nom" >
+</div>
+<br>
+<div class="form-group">
+<input type="number" formControlName="prix" >
+</div>
+<br>
+<div class="form-group">
+<input type="checkbox" formControlName="nouveau" >
+</div>
+<br>
+<div class="form-group">
+<input type="date" formControlName="dateCreation" >
+</div>
+<br>
+<div class="form-group">
+<input type="text" formControlName="categorie" >
+</div>
+<br>
+<div class="form-group">
+<input type="text" formControlName="typeProduit" >
+</div>
+<br>
+<div class="form-group">
+<input type="text" formControlName="marque">
+</div>
+<br>
+<br>
+<button type="button"(click)="onModifier(id)">Enregistrer</button>
+</form>

@@ -1,0 +1,233 @@
+{
+  "parfums": [
+    {
+      "photo": "assets\\harem.jpg",
+      "nom": "Hareem",
+      "prix": 70,
+      "nouveau": true,
+      "dateCreation": "2019-02-03",
+      "categorie": "Femme",
+      "typeProduit": "eau de parfum",
+      "marque": "Arvea Nature",
+      "id": 1,
+      "comment": [
+        {
+          "nom": "ahmed",
+          "comentaire": "merci"
+        }
+      ]
+    },
+    {
+      "photo": "assets\\mystery GIRL.jpg",
+      "nom": "mystery GIRL",
+      "prix": 60,
+      "nouveau": true,
+      "dateCreation": "2020-10-02",
+      "categorie": "Femme",
+      "typeProduit": "Eau de parfum",
+      "marque": "Arvea Nature",
+      "id": 2
+    },
+    {
+      "photo": "assets\\velvet.jpg",
+      "nom": "Velvet Bloom",
+      "prix": 90,
+      "nouveau": true,
+      "dateCreation": "2022-04-03",
+      "categorie": "Parfum",
+      "typeProduit": "Femme",
+      "marque": "Arvea Nature",
+      "id": 3
+    },
+    {
+      "photo": "assets\\nnn.gif",
+      "nom": "Glamour",
+      "prix": 65,
+      "nouveau": true,
+      "dateCreation": "2020-10-09",
+      "categorie": "Femme",
+      "typeProduit": "Eau de parfum",
+      "marque": "Arvea Nature",
+      "id": 4
+    }
+  ],
+  "maquillages": [
+    {
+      "photo": "assets/rouge.jpg",
+      "nom": "Rouge a lévres",
+      "prix": 25,
+      "nouveau": true,
+      "dateCreation": "2020-02-10",
+      "categorie": "femme",
+      "typeProduit": "lévres maquillage",
+      "marque": "Arvea Nature",
+      "id": 10
+    },
+    {
+      "photo": "assets/eye.jpg",
+      "nom": "EyeLiner",
+      "prix": 25,
+      "nouveau": true,
+      "dateCreation": "2020-04-01",
+      "categorie": "femme",
+      "typeProduit": "Yeux maquillage",
+      "marque": "Arvea Nature",
+      "id": 11
+    },
+    {
+      "photo": "assets/abb.jpg",
+      "nom": "Bb Creme",
+      "prix": 50,
+      "nouveau": true,
+      "dateCreation": "2019-05-10",
+      "categorie": "femme",
+      "typeProduit": "Traitants Soins",
+      "marque": "Arvea Nature",
+      "id": 12
+    },
+    {
+      "photo": "assets/mas.jpg",
+      "nom": "Mascara ",
+      "prix": 25,
+      "nouveau": true,
+      "dateCreation": "2019-05-10",
+      "categorie": "Femme",
+      "typeProduit": "Yeux Maquillage",
+      "marque": "Arvea Nature",
+      "id": 13
+    }
+  ],
+  "produitsdesoins": [
+    {
+      "photo": "assets/eaumicellaire.jpg",
+      "nom": "Eau Micellaire",
+      "prix": 45,
+      "nouveau": true,
+      "dateCreation": "0020-02-02",
+      "categorie": "femme",
+      "typeProduit": "Nettoyant Soins",
+      "marque": "Arvea Nature",
+      "id": 3
+    },
+    {
+      "photo": "assets/masque.jpg",
+      "nom": "Masque Nourrissant",
+      "prix": 35,
+      "nouveau": true,
+      "dateCreation": "2020-02-02",
+      "categorie": "femme",
+      "typeProduit": "Capillaire",
+      "marque": "Arvea Nature",
+      "id": 4
+    },
+    {
+      "photo": "assets/savon.jpg",
+      "nom": "Savon Miracle",
+      "prix": 20,
+      "nouveau": true,
+      "dateCreation": "2020-09-01",
+      "categorie": "Unisexe",
+      "typeProduit": "Visage et Corps Hygiene",
+      "marque": "Arvea Nature",
+      "id": 5
+    },
+    {
+      "photo": "assets/gel.jpg",
+      "nom": "Gel Nettoyant",
+      "prix": 25,
+      "nouveau": true,
+      "dateCreation": "2019-07-14",
+      "categorie": "Femme",
+      "typeProduit": "Nettoyants Soins",
+      "marque": "Arvea Nature",
+      "id": 6
+    }
+  ],
+  "clients": [
+    {
+      "nom": "",
+      "prenom": "",
+      "email": "",
+      "password": "",
+      "tel": "",
+      "id": 1
+    },
+    {
+      "nom": "test",
+      "prenom": "test",
+      "email": "test",
+      "password": "test",
+      "tel": 786541164,
+      "id": 2
+    },
+    {
+      "nom": "test2",
+      "prenom": "test2",
+      "email": "test2",
+      "password": "test2",
+      "tel": 54785414,
+      "id": 3
+    },
+    {
+      "nom": "jjui",
+      "prenom": "bnhjiu",
+      "email": "nhjj",
+      "password": "nnjjj",
+      "tel": "",
+      "id": 4
+    }
+  ],
+  "produitshygienes": [
+    {
+      "photo": "assets/eau.jpg",
+      "nom": "Lait De Douche",
+      "prix": 19,
+      "nouveau": true,
+      "dateCreation": "2019-02-10",
+      "categorie": "Unisexe",
+      "typeProduit": "Corps",
+      "marque": "Arvea Nature",
+      "id": 2
+    },
+    {
+      "photo": "assets/courmet.jpg",
+      "nom": "Courmet Flower",
+      "prix": 25,
+      "nouveau": true,
+      "dateCreation": "2019-02-10",
+      "categorie": "Unisexe",
+      "typeProduit": "Corps",
+      "marque": "Arvea Nature",
+      "id": 3
+    },
+    {
+      "nom": "Gel Intime",
+      "photo": "assets/kk.jpg",
+      "nouveau": true,
+      "prix": 17,
+      "dateCreation": "2018-02-10",
+      "categorie": "Unisexe",
+      "typeProduit": "Corps",
+      "marque": "Arvea Nature",
+      "id": 4
+    },
+    {
+      "nom": "Gel Dentaire",
+      "photo": "assets/den.jpg",
+      "nouveau": true,
+      "prix": 20,
+      "dateCreation": "2019-02-10",
+      "categorie": "Unisexe",
+      "typeProduit": "Buccale",
+      "marque": "Arvea Nature",
+      "id": 5
+    }
+  ],
+  "Admin": [
+    {
+      "nom": "sss",
+      "password": "ssssss",
+      "id": 1
+    }
+  ]
+}
