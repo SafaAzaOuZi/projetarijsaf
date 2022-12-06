@@ -25,7 +25,7 @@ export class DetailsparfumsComponent implements OnInit {
   this.parfumService.getParfumByid(this.identifiant).subscribe((data)=>(this.detail=data))
 this.form=this.fb.group({
   nom:[''],
-  Commentaire:[''],
+  commentaire:[''],
 })
   }
 onSubmit(){

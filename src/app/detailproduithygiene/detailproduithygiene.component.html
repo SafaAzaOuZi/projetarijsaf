@@ -8,9 +8,19 @@
     <h5 class="card-title v"><strong>Categorie:</strong>{{detail.categorie}}</h5>
     <h5 class="card-title v"><strong>Date de creation:</strong>{{detail.dateCreation}}</h5>
     <h5 class="card-title v"><strong>type de Produit:</strong>{{detail.typeProduit}}</h5>
-<textarea width="20" height="20"></textarea>
-<button click="">comment</button>
 </div>
     </div>
+    </div>
+    <h5>ajouter un commentaire</h5>
+    <div class="card">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <input type="text" formControlName="nom" placeholder="entrer you name"><br>
+            <textarea formControlName="commentaire" placeholder="write a comment"></textarea><br>
+            <button class="comment-form-button" type="submit"[disabled]="form.invalid">send</button>
+        </form>
+        <div class="card-body">
+            {{pubcommentaire.nom}}
+            {{pubcommentaire.commentaire}}
+        </div>
     </div>
 

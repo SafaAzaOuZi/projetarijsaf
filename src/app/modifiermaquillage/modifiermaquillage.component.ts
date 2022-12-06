@@ -27,7 +27,7 @@ export class ModifiermaquillageComponent implements OnInit {
   }
   onModifier(id:number){
   this.identifiant = this.activatedRoute.snapshot.params['id'];
-  this.maquillageService.updateMaquillage(this.identifiant,this.maquillageForm.value).subscribe(data=>console.log(this.maquillageForm.value));
+  this.maquillageService.updateMaquillage(this.identifiant,this.maquillageForm.value).subscribe(data=>this.maquillageForm.value);
  //this.maquillageForm.reset();
   //actualiser la page par défaut
    //window.location.reload();

@@ -11,3 +11,15 @@
 </div>
     </div>
     </div>
+    <h5 >ajouter un commentaire</h5>
+    <div class="card">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <input type="text" formControlName="nom" placeholder="entrer you name"><br>
+            <textarea formControlName="commentaire" placeholder="write a comment"></textarea><br>
+            <button class="comment-form-button" type="submit"[disabled]="form.invalid">send</button>
+        </form>
+        <div class="card-body">
+            {{pubcommentaire.nom}}
+            {{pubcommentaire.commentaire}}
+        </div>
+    </div>

@@ -27,7 +27,7 @@ export class ModifierparfumComponent implements OnInit {
   }
   onModifier(id:number){
     this.identifiant = this.activatedRoute.snapshot.params['id'];
-  this.parfumService.updateParfum(this.identifiant,this.parfumForm.value).subscribe(data=>console.log(this.parfumForm.value));
+  this.parfumService.updateParfum(this.identifiant,this.parfumForm.value).subscribe(data=>this.parfumForm.value);
  //this.parfumForm.reset();
   //actualiser la page par défaut
    //window.location.reload();

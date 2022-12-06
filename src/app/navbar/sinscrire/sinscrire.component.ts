@@ -13,14 +13,13 @@ export class SinscrireComponent implements OnInit {
   clientForm:FormGroup;
   tabClients : Client[]=[];
   onAjouter(){
-    this.clientService.addClient(this.clientForm.value) .subscribe(data => console.log(data));
+    this.clientService.addClient(this.clientForm.value).subscribe(data => this.tabClients.push(data));
     // pour initialiser le formulaire de zero 
     this.clientForm.reset();
     // pour actualiser la page 
     window.location.reload();
-    window.location.assign("Seconnecter");
+    window.location.assign("listproduit");
     }
-
   ngOnInit(): void {
     this.clientForm = this.formBuilder.group(
       {
@@ -33,7 +32,7 @@ export class SinscrireComponent implements OnInit {
     )
   }
   /* Définition de l'accesseur du FormControl nom*/
-get nom(){
+ get nom(){
   return this.clientForm.get('nom');
   }
   /* Définition de l'accesseur du FormControl prenom*/
@@ -41,7 +40,7 @@ get nom(){
   return this.clientForm.get('prenom');
   }
 /* Définition de l'accesseur du FormControl nom*/
-get email(){
+ get email(){
   return this.clientForm.get('email');
   }
   /* Définition de l'accesseur du FormControl prenom*/

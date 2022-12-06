@@ -26,7 +26,7 @@ export class ModifierproduithygieneComponent implements OnInit {
   }
   onModifier(id:number){
     this.identifiant = this.activatedRoute.snapshot.params['id'];
-  this.produitshygienesService.updateProduitshygienes(this.identifiant,this.prodhForm.value).subscribe(data=>console.log(this.prodhForm.value));
+  this.produitshygienesService.updateProduitshygienes(this.identifiant,this.prodhForm.value).subscribe(data=>this.prodhForm.value);
  //this.parfumForm.reset();
   //actualiser la page par défaut
    //window.location.reload();

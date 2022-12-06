@@ -13,7 +13,7 @@
       "comment": [
         {
           "nom": "ahmed",
-          "commentaire": "merci"
+          "comentaire": "merci"
         }
       ]
     },
@@ -26,13 +26,7 @@
       "categorie": "Femme",
       "typeProduit": "Eau de parfum",
       "marque": "Arvea Nature",
-      "id": 2,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 2
     },
     {
       "photo": "assets\\velvet.jpg",
@@ -43,13 +37,7 @@
       "categorie": "Parfum",
       "typeProduit": "Femme",
       "marque": "Arvea Nature",
-      "id": 3,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 3
     },
     {
       "photo": "assets\\nnn.gif",
@@ -60,32 +48,20 @@
       "categorie": "Femme",
       "typeProduit": "Eau de parfum",
       "marque": "Arvea Nature",
-      "id": 4,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 4
     }
   ],
   "maquillages": [
     {
       "photo": "assets/rouge.jpg",
       "nom": "Rouge a lévres",
-      "prix": 25,
+      "prix": 40,
       "nouveau": true,
       "dateCreation": "2020-02-10",
       "categorie": "femme",
       "typeProduit": "lévres maquillage",
       "marque": "Arvea Nature",
-      "id": 10,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 10
     },
     {
       "photo": "assets/eye.jpg",
@@ -96,13 +72,7 @@
       "categorie": "femme",
       "typeProduit": "Yeux maquillage",
       "marque": "Arvea Nature",
-      "id": 11,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 11
     },
     {
       "photo": "assets/abb.jpg",
@@ -113,13 +83,7 @@
       "categorie": "femme",
       "typeProduit": "Traitants Soins",
       "marque": "Arvea Nature",
-      "id": 12,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 12
     },
     {
       "photo": "assets/mas.jpg",
@@ -130,13 +94,7 @@
       "categorie": "Femme",
       "typeProduit": "Yeux Maquillage",
       "marque": "Arvea Nature",
-      "id": 13,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 13
     }
   ],
   "produitsdesoins": [
@@ -149,13 +107,7 @@
       "categorie": "femme",
       "typeProduit": "Nettoyant Soins",
       "marque": "Arvea Nature",
-      "id": 3,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 3
     },
     {
       "photo": "assets/masque.jpg",
@@ -166,13 +118,7 @@
       "categorie": "femme",
       "typeProduit": "Capillaire",
       "marque": "Arvea Nature",
-      "id": 4,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 4
     },
     {
       "photo": "assets/savon.jpg",
@@ -183,13 +129,7 @@
       "categorie": "Unisexe",
       "typeProduit": "Visage et Corps Hygiene",
       "marque": "Arvea Nature",
-      "id": 5,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 5
     },
     {
       "photo": "assets/gel.jpg",
@@ -200,13 +140,7 @@
       "categorie": "Femme",
       "typeProduit": "Nettoyants Soins",
       "marque": "Arvea Nature",
-      "id": 6,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 6
     }
   ],
   "clients": [
@@ -253,13 +187,7 @@
       "categorie": "Unisexe",
       "typeProduit": "Corps",
       "marque": "Arvea Nature",
-      "id": 2,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 2
     },
     {
       "photo": "assets/courmet.jpg",
@@ -270,13 +198,7 @@
       "categorie": "Unisexe",
       "typeProduit": "Corps",
       "marque": "Arvea Nature",
-      "id": 3,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 3
     },
     {
       "nom": "Gel Intime",
@@ -287,13 +209,7 @@
       "categorie": "Unisexe",
       "typeProduit": "Corps",
       "marque": "Arvea Nature",
-      "id": 4,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 4
     },
     {
       "nom": "Gel Dentaire",
@@ -304,19 +220,13 @@
       "categorie": "Unisexe",
       "typeProduit": "Buccale",
       "marque": "Arvea Nature",
-      "id": 5,
-      "comment": [
-        {
-          "nom": "ahmed",
-          "commentaire": "merci"
-        }
-      ]
+      "id": 5
     }
   ],
   "Admin": [
     {
-      "nom": "safaarij",
-      "password": "safaarijmdp",
+      "nom": "sss",
+      "password": "ssssss",
       "id": 1
     }
   ]

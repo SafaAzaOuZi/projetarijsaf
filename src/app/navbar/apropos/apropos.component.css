@@ -1,1 +1,8 @@
 h1{font-weight:bold;}
+body{
+    background-color:rgb(253, 220, 226);
+}
+img{
+    float: right;
+    border-radius:25%;
+}

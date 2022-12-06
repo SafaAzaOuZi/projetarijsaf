@@ -1,4 +1,5 @@
-<div class="container">
+<body>
+  <div class="container">
   <h2 class="text-center">Bienvenue Chez Nous</h2>
   <form [formGroup]="seconnecterForm" class="bordure" (ngSubmit)="onSubmit()" noValidate >
     <label><h3>Nom utilisateur :</h3></label>
@@ -9,7 +10,7 @@
     <br>
     <br>
     <label><h3> Mot de Passe :</h3></label>
-    <input type="text" class="form-control" formControlName="mdps">
+    <input type="password" class="form-control" formControlName="mdps">
     <div *ngIf=" mdps && mdps?.errors?.['required']&& mdps?.dirty && mdps && mdps.invalid && mdps.touched &&mdps?.errors?.['minLength']">
       <br>
       <button class="btn btn-default"><a [routerLink]="['/modifiermotpass']">Modifier</a></button>
@@ -19,3 +20,5 @@
 <strong><h2>Je n'ai pas encore de compte ?</h2> </strong>
   <button (click)="Oninscrire()" class="btn btn-dark">Creer Un Compte</button>  
   </form>
+  </div>
+</body>

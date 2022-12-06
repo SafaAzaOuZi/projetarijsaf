@@ -29,5 +29,5 @@
     <div *ngIf="tel.errors?.['pattern']&& tel.dirty"class="alert alert-danger">Le numéro de téléphone doit débuter par le nombre "216" suivi de 8 chiffres </div>
     <br>
     <br>
-    <button type="button"(click)="onAjouter()"[disabled]="clientForm.invalid" class="btn btn-warning">S'inscrire</button>
+    <button type="button"(click)="onAjouter()"[disabled]="clientForm.invalid" class="btn btn-dark">S'inscrire</button>
 </form>
